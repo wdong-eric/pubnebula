@@ -32,8 +32,12 @@ export function validatePeopleDocument(document) {
     if (typeof person?.displayName !== 'string' || person.displayName.trim() === '') {
       errors.push(`${label}: displayName is required`);
     }
-    if (!OPENALEX_AUTHOR_RE.test(person?.openAlexAuthorId ?? '')) {
-      errors.push(`${label}: openAlexAuthorId must be a full https://openalex.org/A... URL`);
+    if (
+      person?.openAlexAuthorId !== null &&
+      person?.openAlexAuthorId !== undefined &&
+      !OPENALEX_AUTHOR_RE.test(person.openAlexAuthorId)
+    ) {
+      errors.push(`${label}: openAlexAuthorId must be a full https://openalex.org/A... URL or null`);
     }
     if (person?.orcid !== null && person?.orcid !== undefined && !ORCID_RE.test(person.orcid)) {
       errors.push(`${label}: orcid must be a full https://orcid.org/... URL or null`);

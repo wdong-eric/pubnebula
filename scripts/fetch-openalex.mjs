@@ -120,6 +120,12 @@ async function main() {
   const generatedAt = new Date().toISOString();
 
   for (const person of people) {
+    if (!person.openAlexAuthorId) {
+      console.log(`Skipping ${person.displayName}: no curated OpenAlex author ID yet.`);
+      rawWorksByAuthor[person.slug] = [];
+      continue;
+    }
+
     console.log(`Fetching ${person.displayName} (${person.openAlexAuthorId})...`);
     const result = await fetchWorksForPerson(person, options);
     rawWorksByAuthor[person.slug] = result.works;

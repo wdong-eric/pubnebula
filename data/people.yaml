@@ -92,3 +92,615 @@ people:
       confidence: low
       evidenceNote: Current membership is confirmed by the UoM Astrophysics roster; rank is a curated visual approximation pending exact appointment evidence.
       sourceUrl: https://astro.physics.unimelb.edu.au/
+  - slug: sabrina-berger
+    displayName: Sabrina Berger
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 8
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: daniel-boek
+    displayName: Daniel Boek
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 9
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: ryan-brunet
+    displayName: Ryan Brunet
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 10
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: yutong-bu
+    displayName: Yutong Bu
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 11
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: stephen-catsamas
+    displayName: Stephen Catsamas
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 12
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: jade-chantrell
+    displayName: Jade Chantrell
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 13
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: tong-cheunchitra
+    displayName: Tong Cheunchitra
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 14
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: justin-clancy
+    displayName: Justin Clancy
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 15
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: nicolo-dalmasso
+    displayName: Nicolo Dalmasso
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 16
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: wenhao-dong
+    displayName: Wenhao Dong
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 17
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: michael-doohan
+    displayName: Michael Doohan
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 18
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: liam-dunn
+    displayName: Liam Dunn
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 19
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: giovanni-ferrami
+    displayName: Giovanni Ferrami
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 20
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: jamie-gallagher-rooney
+    displayName: Jamie Gallagher Rooney
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 21
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: amanda-goldfarb
+    displayName: Amanda Goldfarb
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 22
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: james-greenwood
+    displayName: James Greenwood
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 23
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: junsheng-he
+    displayName: Junsheng He
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 24
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: hilmi-hilmi
+    displayName: Hilmi Hilmi
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 25
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: jarra-horstman
+    displayName: Jarra Horstman
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 26
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: blaze-houlden
+    displayName: Blaze Houlden
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 27
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: jin-lee
+    displayName: Jin Lee
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 28
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: yi-shuen-lee
+    displayName: Yi Shuen Lee
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 29
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: kevin-levy
+    displayName: Kevin Levy
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 30
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: nicholas-low
+    displayName: Nicholas Low
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 31
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: claire-mckee
+    displayName: Claire McKee
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 32
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: ash-monaghan
+    displayName: Ash Monaghan
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 33
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: haritha-mullathody
+    displayName: Haritha Mullathody
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 34
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: jack-murray
+    displayName: Jack Murray
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 35
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: firda-nur
+    displayName: Firda Nur
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 36
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: hannah-ollerenshaw
+    displayName: Hannah Ollerenshaw
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 37
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: daniel-othman
+    displayName: Daniel Othman
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 38
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: sonja-panjkov
+    displayName: Sonja Panjkov
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 39
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: rafael-raul-ramirez-nethersole
+    displayName: Rafael Raul Ramirez Nethersole
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 40
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: ivan-rodriguez-mallo
+    displayName: Ivan Rodriguez Mallo
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 41
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: sara-romagnoli
+    displayName: Sara Romagnoli
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 42
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: eden-saunders
+    displayName: Eden Saunders
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 43
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: sophie-schier
+    displayName: Sophie Schier
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 44
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: jennifer-shi
+    displayName: Jennifer Shi
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 45
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: matt-stanton
+    displayName: Matt Stanton
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 46
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: sruthi-suresh
+    displayName: Sruthi Suresh
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 47
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: cameron-taylor
+    displayName: Cameron Taylor
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 48
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: matt-thomas
+    displayName: Matt Thomas
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 49
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: kok-hong-thong
+    displayName: Kok Hong Thong
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 50
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: hudson-tippett
+    displayName: Hudson Tippett
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 51
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: manu-ventura
+    displayName: Manu Ventura
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 52
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: danton-weil
+    displayName: Danton Weil
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 53
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: justin-yu
+    displayName: Justin Yu
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 54
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: ocha-yuna
+    displayName: Ocha Yuna
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 55
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: junhao-zhan
+    displayName: Junhao Zhan
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 56
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: haotian-zhang
+    displayName: Haotian Zhang
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 57
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html
+  - slug: rui-zhou
+    displayName: Rui Zhou
+    openAlexAuthorId: null
+    orcid: null
+    roleLabel: Student
+    stage: student
+    joinOrder:
+      rank: 58
+      label: Current student roster entry; first UoM-affiliated publication not curated yet
+      confidence: low
+      evidenceNote: Current student membership is confirmed by the embedded UoM Astrophysics directory. Radial placement follows directory order until an explicit first UoM-affiliated publication proxy is curated.
+      sourceUrl: https://www.ph.unimelb.edu.au/~creichardt/astro_group/directory.html

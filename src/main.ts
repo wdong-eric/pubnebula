@@ -59,8 +59,8 @@ app.innerHTML = `
           <h1>UoM Astrophysics Publication Galaxy</h1>
         </div>
         <p class="scope-note">
-          Full-career OpenAlex works for current UoM astrophysics faculty. Radial star distance
-          uses approximate join order and is not a historical appointment record.
+          Full-career OpenAlex works where IDs are curated, plus roster-only UoM astrophysics
+          students. Radial star distance uses approximate proxy order, not appointment history.
         </p>
       </div>
       <div id="canvasHost" class="canvas-host"></div>
@@ -138,6 +138,7 @@ const pointer = new THREE.Vector2();
 const topicMaterialCache = new Map<string, THREE.MeshStandardMaterial>();
 const authorObjects = new Map<string, AuthorObject>();
 const planetObjects: PlanetObject[] = [];
+const planetCountsByAuthor = new Map<string, number>();
 const workById = new Map<string, NebulaWork>();
 const pickables: THREE.Object3D[] = [];
 const tmpVector = new THREE.Vector3();
@@ -303,7 +304,7 @@ function addBlackHole() {
 }
 
 function populateControls(nebula: NebulaDataset) {
-  authorSelect.replaceChildren(new Option('All faculty stars', 'all'));
+  authorSelect.replaceChildren(new Option('All roster stars', 'all'));
   for (const author of [...nebula.authors].sort((a, b) => a.joinOrder.rank - b.joinOrder.rank)) {
     authorSelect.add(new Option(author.displayName, author.slug));
   }
@@ -336,6 +337,7 @@ function populateControls(nebula: NebulaDataset) {
 
 function addAuthorSystems(nebula: NebulaDataset) {
   const authors = [...nebula.authors].sort((a, b) => a.joinOrder.rank - b.joinOrder.rank);
+  const maxJoinRank = Math.max(...authors.map((author) => author.joinOrder.rank), 1);
   const linksByAuthor = new Map<string, AuthorWorkLink[]>();
 
   for (const link of nebula.authorWorkLinks) {
@@ -347,7 +349,9 @@ function addAuthorSystems(nebula: NebulaDataset) {
   for (let index = 0; index < authors.length; index += 1) {
     const author = authors[index];
     const angle = (index / authors.length) * Math.PI * 2 + 0.32;
-    const radius = 2.7 + author.joinOrder.rank * 2.42;
+    const rankRatio =
+      maxJoinRank === 1 ? 0 : (author.joinOrder.rank - 1) / (maxJoinRank - 1);
+    const radius = 2.8 + rankRatio * 21;
     const position = new THREE.Vector3(
       Math.cos(angle) * radius,
       (seededUnit(`${author.slug}-height`) - 0.5) * 1.4,
@@ -477,6 +481,8 @@ function addPlanetsForAuthor(
         .toLowerCase()
     });
   }
+
+  planetCountsByAuthor.set(author.slug, workLinks.length);
 }
 
 function materialForTopic(topic: NebulaTopic | null) {
@@ -615,8 +621,14 @@ function applyFilters() {
       filterState.authorSlug === 'all' || filterState.authorSlug === authorObject.author.slug;
     const authorMatchesSearch =
       filterState.search !== '' && authorObject.searchText.includes(filterState.search);
+    const canShowRosterOnly =
+      filterState.search === '' &&
+      filterState.topicId === 'all' &&
+      filterState.fromYear === minPublicationYear &&
+      (planetCountsByAuthor.get(authorObject.author.slug) ?? 0) === 0;
     authorObject.mesh.visible =
-      focused && (visibleAuthors.has(authorObject.author.slug) || authorMatchesSearch);
+      focused &&
+      (visibleAuthors.has(authorObject.author.slug) || authorMatchesSearch || canShowRosterOnly);
   }
 
   visibleCount.textContent = `${visiblePlanets.toLocaleString()} planets visible of ${planetObjects.length.toLocaleString()}`;
@@ -626,7 +638,10 @@ function applyFilters() {
 function updateLabels() {
   for (const authorObject of authorObjects.values()) {
     const shouldShow =
-      filterState.showLabels && authorObject.mesh.visible && authorObject.systemRadius < 22;
+      filterState.showLabels &&
+      authorObject.mesh.visible &&
+      (authorObject.author.roleLabel !== 'Student' || filterState.authorSlug === authorObject.author.slug) &&
+      authorObject.systemRadius < 22;
     authorObject.label.hidden = !shouldShow;
     if (!shouldShow) {
       continue;
@@ -659,11 +674,11 @@ function renderDetails(item: PickedObject | null = null) {
     const body = document.createElement('p');
     const authorCount = dataset?.authors.length ?? 0;
     const workCount = dataset?.works.length ?? 0;
-    body.textContent = `${authorCount} faculty stars, ${workCount.toLocaleString()} unique OpenAlex works, and planets repeated around each linked author.`;
+    body.textContent = `${authorCount} roster stars, ${workCount.toLocaleString()} unique OpenAlex works, and planets repeated around each linked author.`;
     const note = document.createElement('p');
     note.className = 'muted';
     note.textContent =
-      'Central object: UoM. Inner stellar rings: earlier approximate join order. Planet distance inside each system: publication year from OpenAlex metadata.';
+      'Central object: UoM. Inner stellar rings: earlier curated/proxy order. Planet distance inside each system: publication year from OpenAlex metadata.';
     detailsPanel.append(title, body, note);
     return;
   }
@@ -679,7 +694,8 @@ function renderAuthorDetails(author: NebulaAuthor) {
   const title = document.createElement('h2');
   title.textContent = author.displayName;
   const meta = document.createElement('p');
-  meta.textContent = `${author.roleLabel}. Join-order rank ${author.joinOrder.rank} (${author.joinOrder.confidence} confidence).`;
+  const planetCount = planetCountsByAuthor.get(author.slug) ?? 0;
+  meta.textContent = `${author.roleLabel}. ${planetCount.toLocaleString()} linked OpenAlex planets. Radial rank ${author.joinOrder.rank} (${author.joinOrder.confidence} confidence).`;
   const evidence = document.createElement('p');
   evidence.className = 'muted';
   evidence.textContent = author.joinOrder.evidenceNote;

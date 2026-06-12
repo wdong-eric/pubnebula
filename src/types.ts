@@ -9,7 +9,7 @@ export interface JoinOrder {
 export interface NebulaAuthor {
   slug: string;
   displayName: string;
-  openAlexAuthorId: string;
+  openAlexAuthorId: string | null;
   openAlexAuthorShortId: string;
   orcid: string | null;
   roleLabel: string;
