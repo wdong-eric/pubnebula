@@ -1,0 +1,159 @@
+{
+  "people": [
+    {
+      "slug": "alpha-author",
+      "displayName": "Alpha Author",
+      "openAlexAuthorId": "https://openalex.org/A100",
+      "orcid": "https://orcid.org/0000-0000-0000-000X",
+      "roleLabel": "Faculty member",
+      "stage": null,
+      "joinOrder": {
+        "rank": 1,
+        "label": "Fixture",
+        "confidence": "low",
+        "evidenceNote": "Fixture evidence",
+        "sourceUrl": "https://example.test/alpha"
+      }
+    },
+    {
+      "slug": "beta-author",
+      "displayName": "Beta Author",
+      "openAlexAuthorId": "https://openalex.org/A200",
+      "orcid": null,
+      "roleLabel": "Faculty member",
+      "stage": null,
+      "joinOrder": {
+        "rank": 2,
+        "label": "Fixture",
+        "confidence": "low",
+        "evidenceNote": "Fixture evidence",
+        "sourceUrl": "https://example.test/beta"
+      }
+    }
+  ],
+  "rawWorksByAuthor": {
+    "alpha-author": [
+      {
+        "id": "https://openalex.org/W100",
+        "doi": "https://doi.org/10.1000/alpha",
+        "display_name": "Unicode \\u2013 \\u03c0 neutron-star glitch",
+        "publication_year": 2024,
+        "cited_by_count": 42,
+        "type": "article",
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A100",
+              "display_name": "Alpha Author",
+              "orcid": "https://orcid.org/0000-0000-0000-000X"
+            },
+            "is_corresponding": true,
+            "raw_author_name": "Alpha Author",
+            "institutions": [],
+            "raw_affiliation_strings": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A200",
+              "display_name": "Beta Author"
+            },
+            "is_corresponding": false,
+            "raw_author_name": "Beta Author",
+            "institutions": [],
+            "raw_affiliation_strings": []
+          }
+        ],
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1000/alpha",
+          "is_oa": true,
+          "source": {
+            "display_name": "Journal of Test Astronomy",
+            "type": "journal"
+          }
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T1",
+            "display_name": "Pulsars and Gravitational Waves Research",
+            "score": 0.9,
+            "subfield": {
+              "display_name": "Astronomy and Astrophysics"
+            },
+            "field": {
+              "display_name": "Physics and Astronomy"
+            },
+            "domain": {
+              "display_name": "Physical Sciences"
+            }
+          }
+        ]
+      },
+      {
+        "id": "https://openalex.org/W101",
+        "display_name": "Missing affiliations and topic metadata",
+        "publication_year": 2022,
+        "cited_by_count": 0,
+        "authorships": [
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A100",
+              "display_name": "Alpha Author"
+            },
+            "is_corresponding": false,
+            "raw_author_name": "Alpha Author"
+          }
+        ],
+        "primary_location": null,
+        "topics": []
+      }
+    ],
+    "beta-author": [
+      {
+        "id": "https://openalex.org/W100",
+        "doi": "https://doi.org/10.1000/alpha",
+        "display_name": "Unicode \\u2013 \\u03c0 neutron-star glitch",
+        "publication_year": 2024,
+        "cited_by_count": 42,
+        "type": "article",
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A100",
+              "display_name": "Alpha Author"
+            },
+            "is_corresponding": true,
+            "raw_author_name": "Alpha Author"
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A200",
+              "display_name": "Beta Author"
+            },
+            "is_corresponding": false,
+            "raw_author_name": "Beta Author"
+          }
+        ],
+        "primary_location": {
+          "landing_page_url": "https://doi.org/10.1000/alpha",
+          "is_oa": true,
+          "source": {
+            "display_name": "Journal of Test Astronomy",
+            "type": "journal"
+          }
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T1",
+            "display_name": "Pulsars and Gravitational Waves Research",
+            "score": 0.9
+          }
+        ]
+      }
+    ]
+  }
+}

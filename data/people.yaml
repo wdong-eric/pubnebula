@@ -1,0 +1,94 @@
+schemaVersion: 1
+dataset:
+  name: UoM Astrophysics Faculty MVP
+  publicationScope: Full-career OpenAlex works for current UoM astrophysics faculty.
+  rosterSourceUrl: https://astro.physics.unimelb.edu.au/
+  notes:
+    - Faculty seed list comes from the UoM Astrophysics group homepage.
+    - Join-order ranks are approximate and intended only for radial placement in the MVP.
+    - Exact appointment dates should be curated before using join order as a historical claim.
+people:
+  - slug: rachel-webster
+    displayName: Rachel Webster
+    openAlexAuthorId: https://openalex.org/A5086284121
+    orcid: https://orcid.org/0000-0002-5325-2709
+    roleLabel: Faculty member
+    stage: null
+    joinOrder:
+      rank: 1
+      label: Earliest approximate appointment in this MVP roster
+      confidence: medium
+      evidenceNote: Public biographical sources describe Rachel Webster returning to the University of Melbourne in 1992; exact group appointment metadata still needs local curation.
+      sourceUrl: https://en.wikipedia.org/wiki/Rachel_Webster
+  - slug: andrew-melatos
+    displayName: Andrew Melatos
+    openAlexAuthorId: https://openalex.org/A5106695888
+    orcid: https://orcid.org/0000-0003-4642-141X
+    roleLabel: Faculty member
+    stage: null
+    joinOrder:
+      rank: 2
+      label: Approximate senior long-standing member
+      confidence: low
+      evidenceNote: Current membership is confirmed by the UoM Astrophysics roster; rank is a curated visual approximation pending exact appointment evidence.
+      sourceUrl: https://astro.physics.unimelb.edu.au/
+  - slug: michele-trenti
+    displayName: Michele Trenti
+    openAlexAuthorId: https://openalex.org/A5082471169
+    orcid: https://orcid.org/0000-0001-9391-305X
+    roleLabel: Faculty member
+    stage: null
+    joinOrder:
+      rank: 3
+      label: Approximate mid-roster appointment
+      confidence: low
+      evidenceNote: Current membership is confirmed by the UoM Astrophysics roster; rank is a curated visual approximation pending exact appointment evidence.
+      sourceUrl: https://astro.physics.unimelb.edu.au/
+  - slug: christian-reichardt
+    displayName: Christian Reichardt
+    openAlexAuthorId: https://openalex.org/A5013035399
+    orcid: https://orcid.org/0000-0003-2226-9169
+    roleLabel: Faculty member
+    stage: null
+    joinOrder:
+      rank: 4
+      label: Approximate mid-roster appointment
+      confidence: low
+      evidenceNote: Current membership is confirmed by the UoM Astrophysics roster; rank is a curated visual approximation pending exact appointment evidence.
+      sourceUrl: https://astro.physics.unimelb.edu.au/
+  - slug: duane-hamacher
+    displayName: Duane Hamacher
+    openAlexAuthorId: https://openalex.org/A5055538548
+    orcid: https://orcid.org/0000-0003-3072-8468
+    roleLabel: Faculty member
+    stage: null
+    joinOrder:
+      rank: 5
+      label: Approximate newer-roster appointment
+      confidence: low
+      evidenceNote: Current membership is confirmed by the UoM Astrophysics roster; rank is a curated visual approximation pending exact appointment evidence.
+      sourceUrl: https://astro.physics.unimelb.edu.au/
+  - slug: katie-auchettl
+    displayName: Katie Auchettl
+    openAlexAuthorId: https://openalex.org/A5071741314
+    orcid: https://orcid.org/0000-0002-4449-9152
+    roleLabel: Faculty member
+    stage: null
+    joinOrder:
+      rank: 6
+      label: Approximate newer-roster appointment
+      confidence: low
+      evidenceNote: Current membership is confirmed by the UoM Astrophysics roster; rank is a curated visual approximation pending exact appointment evidence.
+      sourceUrl: https://astro.physics.unimelb.edu.au/
+  - slug: hayley-macpherson
+    displayName: Hayley Macpherson
+    openAlexAuthorId: https://openalex.org/A5013354117
+    orcid: https://orcid.org/0000-0002-9950-422X
+    roleLabel: Faculty member
+    stage: null
+    joinOrder:
+      rank: 7
+      label: Latest approximate appointment in this MVP roster
+      confidence: low
+      evidenceNote: Current membership is confirmed by the UoM Astrophysics roster; rank is a curated visual approximation pending exact appointment evidence.
+      sourceUrl: https://astro.physics.unimelb.edu.au/

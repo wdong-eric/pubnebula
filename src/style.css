@@ -1,0 +1,280 @@
+:root {
+  color: #f5f8ff;
+  background: #05070d;
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+.app-shell {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 50% 50%, rgba(50, 139, 255, 0.14), transparent 34rem),
+    radial-gradient(circle at 14% 18%, rgba(255, 177, 74, 0.09), transparent 24rem),
+    #05070d;
+}
+
+.scene-panel {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.canvas-host {
+  position: absolute;
+  inset: 0;
+}
+
+.canvas-host canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.topbar {
+  position: absolute;
+  z-index: 3;
+  top: 1rem;
+  left: 1rem;
+  right: 1rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: flex-start;
+  pointer-events: none;
+}
+
+.eyebrow {
+  color: #7fd9ff;
+  margin: 0 0 0.35rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.72rem;
+}
+
+h1 {
+  margin: 0;
+  max-width: 26rem;
+  font-size: clamp(1.45rem, 3vw, 2.7rem);
+  line-height: 1.03;
+}
+
+p {
+  color: #b8c2da;
+  line-height: 1.5;
+}
+
+a {
+  color: #77d8ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.scope-note {
+  width: min(34rem, 45vw);
+  margin: 0;
+  color: #d6e2ff;
+  font-size: 0.9rem;
+  text-align: right;
+}
+
+.controls,
+.details-panel {
+  position: absolute;
+  z-index: 4;
+  width: 18.5rem;
+  border: 1px solid rgba(137, 186, 255, 0.24);
+  background: rgba(5, 9, 18, 0.78);
+  backdrop-filter: blur(16px);
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.28);
+}
+
+.controls {
+  left: 1rem;
+  bottom: 1rem;
+  display: grid;
+  gap: 0.75rem;
+  padding: 0.85rem;
+  border-radius: 8px;
+}
+
+.details-panel {
+  right: 1rem;
+  bottom: 1rem;
+  min-height: 12rem;
+  max-height: min(32rem, calc(100vh - 9rem));
+  overflow: auto;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.details-panel h2 {
+  margin: 0 0 0.6rem;
+  font-size: 1.05rem;
+  line-height: 1.25;
+}
+
+.details-panel p {
+  margin: 0 0 0.75rem;
+  font-size: 0.9rem;
+}
+
+.muted {
+  color: #96a7c4;
+}
+
+.controls label {
+  display: grid;
+  gap: 0.32rem;
+  color: #dce8ff;
+  font-size: 0.76rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.controls input[type='search'],
+.controls select {
+  width: 100%;
+  min-height: 2.25rem;
+  border: 1px solid rgba(138, 186, 255, 0.34);
+  border-radius: 6px;
+  padding: 0 0.65rem;
+  color: #f5f8ff;
+  background: rgba(2, 5, 12, 0.68);
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.controls input[type='range'] {
+  accent-color: #69d2ff;
+}
+
+.toggle-row {
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  text-transform: none;
+}
+
+.control-value,
+.visible-count {
+  color: #8fb2d4;
+  font-size: 0.78rem;
+  margin: 0;
+}
+
+button {
+  min-height: 2.25rem;
+  border: 1px solid rgba(255, 185, 98, 0.42);
+  border-radius: 6px;
+  color: #06101f;
+  background: #ffbd62;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ffd28b;
+}
+
+.label-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.author-label {
+  position: absolute;
+  color: #f4f8ff;
+  background: rgba(4, 8, 16, 0.66);
+  border: 1px solid rgba(137, 186, 255, 0.28);
+  border-radius: 6px;
+  padding: 0.18rem 0.42rem;
+  font-size: 0.76rem;
+  white-space: nowrap;
+  transform: translate(-50%, -50%);
+}
+
+.loading-state {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  display: grid;
+  place-items: center;
+  color: #dce8ff;
+  background: rgba(5, 7, 13, 0.72);
+}
+
+.loading-state[hidden] {
+  display: none;
+}
+
+.loading-state.is-error {
+  color: #ff9eaa;
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 860px) {
+  body {
+    overflow: auto;
+  }
+
+  .scene-panel {
+    min-height: 100svh;
+  }
+
+  .topbar {
+    display: block;
+  }
+
+  .scope-note {
+    width: min(100%, 34rem);
+    margin-top: 0.55rem;
+    text-align: left;
+    font-size: 0.82rem;
+  }
+
+  .controls,
+  .details-panel {
+    width: calc(100% - 2rem);
+  }
+
+  .controls {
+    top: auto;
+    bottom: 1rem;
+    max-height: calc(100svh - 24rem);
+    overflow: auto;
+  }
+
+  .details-panel {
+    right: 1rem;
+    top: 9.75rem;
+    bottom: auto;
+    min-height: 8rem;
+    max-height: 11.5rem;
+  }
+}
